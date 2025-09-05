@@ -1,0 +1,63 @@
+# ---- Általános ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE-k ----
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# VS Code
+.vscode/
+
+# ---- Build output ----
+target/
+build/
+dist/
+nbbuild/
+nbproject/private/
+
+# ---- Fordított fájlok ----
+*.class
+*.log
+*.ctxt
+
+# ---- Csomagolt fájlok (nem kell repóba) ----
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ---- Operációs rendszer által generált ----
+hs_err_pid*
+replay_pid*
+
+# ---- Maven ----
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ---- Gradle ----
+.gradle/
+build/
+
+# ---- NetBeans ----
+nblibraries.properties
+
+# ---- Biztonsági fájlok (pl. jelszavak) ----
+*.env
+application-*.yml
+application-*.yaml
+application-*.properties
